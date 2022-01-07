@@ -1,26 +1,25 @@
 package homework2;
-
+import java.util.Scanner;
 public class FirstQuestion {
     public static void main(String[] args) {
-    int max = max(25987,598,1455);
-        System.out.println(max);
-    }
-
-
-
-    public static int max(int v1, int v2, int v3) {
-        if (v1 > v2) {
-            if (v1 > v3) {
-                return v1;
-            } else {
-                return v3;
+        Scanner scanner= new Scanner(System.in);
+        System.out.print("Input your number: ");
+        int n=scanner.nextInt();
+        if (n%2==1){
+            System.out.println("Weird");
+        }
+        else if (n%2==0 && n>1){
+            if (n<=5){
+                System.out.println("Not Weird");
             }
-        } else {
-            if (v2 > v3) {
-                return v2;
+            else if(n<=20){
+                System.out.println("Weird");
             } else {
-                return v3;
+                System.out.println("Not Weird");
             }
+        }
+        else{
+            System.out.println("Error");
         }
     }
 }

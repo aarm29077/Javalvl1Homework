@@ -1,24 +1,13 @@
 package homework2;
-
+import java.util.Scanner;
 public class SecondQuestion {
-    public static void main(String[] args){
-        int min = min(9,3,1);
-        System.out.println(min);
-    }
+    public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Input your number : ");
+    int N= scanner.nextInt();
+    for (int i = 1 ; i <= 10; i++) {
+        System.out.println( N + " * " + i + " = " + N*i);
 
-    public static int min(int n1 , int n2 , int n3) {
-        if (n1<n2) {
-            if (n1 < n3) {
-                return n1;
-            } else {
-                return n3;
-            }
-        }else {
-            if ( n2< n3){
-                return n2;
-            }else{
-                return n3;
-            }
-            }
         }
+    }
 }
