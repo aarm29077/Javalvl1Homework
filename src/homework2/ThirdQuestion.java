@@ -8,7 +8,7 @@ public class ThirdQuestion {
         double a = scanner.nextDouble();
         System.out.print("Input b: ");
         double b = scanner.nextDouble();
-        System.out.print("Input c ");
+        System.out.print("Input c: ");
         double c = scanner.nextDouble();
         double D = b*b-4*a*c;
         double d = Math.sqrt(D);
