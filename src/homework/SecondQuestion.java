@@ -22,6 +22,7 @@ public class SecondQuestion {
 
 
     public static long min(long num1 , long num2){
+
         if (num1 > num2){
             return num1;
         }else{
