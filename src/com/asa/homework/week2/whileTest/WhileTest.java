@@ -1,4 +1,4 @@
-package homework4;
+package com.asa.homework.week2.whileTest;
 
 public class WhileTest {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class WhileTest {
             long b = a;
             a = (System.currentTimeMillis() / 1000 - startMillis);
 
-            if(b != a)
+            if (b != a)
                 System.out.println(a);
         }
     }

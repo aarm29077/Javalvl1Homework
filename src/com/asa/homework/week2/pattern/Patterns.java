@@ -1,8 +1,8 @@
-package homework4;
+package com.asa.homework.week2.pattern;
 
 import java.util.Scanner;
 
-public class patterns {
+public class Patterns {
     public static void main(String[] args) {
         char array[][] = new char[5][5];
 
@@ -19,7 +19,7 @@ public class patterns {
 
             System.out.println("Before");
             for (int n = 0; n < array.length; n++) {
-                for (int m = 0; m <array[n].length; m++) {
+                for (int m = 0; m < array[n].length; m++) {
                     array[n][m] = '0';
                     System.out.print(array[n][m] + " ");
                 }
