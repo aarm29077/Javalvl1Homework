@@ -11,6 +11,7 @@ public class HomeworkTest {
 
 
         Student student1 = new Student();
+
         student1.name = "Arman";
         student1.surname = "Vardanyan";
         Student student2 = new Student();
