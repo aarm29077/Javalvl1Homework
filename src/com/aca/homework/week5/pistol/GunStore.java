@@ -36,7 +36,7 @@ public class GunStore {
     public static void print(Gun[] array){
         for (Gun gun : array) {
             if (gun != null) {
-                System.out.println(gun.toString());
+                System.out.println(gun);
             }
         }
     }
