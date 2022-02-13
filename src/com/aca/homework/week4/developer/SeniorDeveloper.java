@@ -1,4 +1,5 @@
 package com.aca.homework.week4.developer;
+
 /*
 Do not use a constructor other than a default in the above-mentioned classes.
 Create a print method to print the details of the class.
@@ -13,7 +14,7 @@ public class SeniorDeveloper extends Developer {
         return 2_400;
     }
 
-    public int getSalary(){
+    public int getSalary() {
         return 3_000_000;
     }
 

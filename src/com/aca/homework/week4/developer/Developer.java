@@ -22,19 +22,24 @@ note: The Developer class should have only one name field. The JuniorFeveloper a
 
     private String name;
 
-    public  int getSalary(){
+    public int getSalary() {
         return 60_000;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
-    }public void setName(String name){
-        this.name=name;
     }
-    public int getLearningBudget(){
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getLearningBudget() {
         return 300;
     }
-    public void print(){
-        System.out.println("name: " + getName() + ", salary: " + getSalary() +  ", learning budget: " + getLearningBudget());
+
+    public void print() {
+        System.out.println("name: " + getName() + ", salary: " + getSalary() + ", learning budget: " + getLearningBudget());
     }
 
 }
