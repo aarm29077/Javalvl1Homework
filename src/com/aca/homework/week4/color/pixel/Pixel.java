@@ -12,6 +12,9 @@ public class Pixel {
     private int x;
     private int y;
 
+    public Pixel(){
+
+    }
     public int getX() {
         return x;
     }
@@ -28,7 +31,5 @@ public class Pixel {
         this.y = y;
     }
 
-    public Pixel(){
 
-    }
 }
