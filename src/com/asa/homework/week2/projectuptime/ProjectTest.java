@@ -12,7 +12,7 @@ public class ProjectTest {
         System.out.println(projects[2].creationSeconds+" " + projects[2].name);
     }
 
-    public static Project[] createProject(Project[] projects) {
+    public static void createProject(Project[] projects) {
         Scanner scanner = new Scanner(System.in);
         long startSecond=System.currentTimeMillis();
         for (int i = 0; i < projects.length; i++) {
@@ -22,7 +22,7 @@ public class ProjectTest {
             project.creationSeconds= (System.currentTimeMillis()-startSecond)/1000;
             projects[i]=project;
         }
-        return projects;
+
     }
 
 
