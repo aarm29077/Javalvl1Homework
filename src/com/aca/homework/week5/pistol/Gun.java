@@ -1,8 +1,8 @@
 package com.aca.homework.week5.pistol;
 
 public class Gun {
-    String name;
-    String shoot;
+    private String name;
+    private String shoot;
 
     public String getName() {
         return name;
