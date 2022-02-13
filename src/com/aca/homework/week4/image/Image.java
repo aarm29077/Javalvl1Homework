@@ -2,9 +2,9 @@ package com.aca.homework.week4.image;
 
 public class Image {
 
-    int verticalLength;
-    int horizontalLength;
-    char[][] pixel;
+    private int verticalLength;
+    private int horizontalLength;
+    private char[][] pixel;
 
     public Image(int verticalLength, int horizontalLength) {
         this.verticalLength = verticalLength;
