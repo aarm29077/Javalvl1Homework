@@ -1,7 +1,6 @@
 package com.aca.homework.week4.time;
 
 
-
 public class Test {
 
     public static void main(String[] args) {
@@ -12,6 +11,6 @@ public class Test {
         System.out.println(time.getMinutes());
         System.out.println(time.getSeconds());
 
-        }
+    }
 
 }

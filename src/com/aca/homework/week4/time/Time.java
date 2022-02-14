@@ -1,9 +1,5 @@
 package com.aca.homework.week4.time;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 /*
 Create a Time method that takes seconds of a day in a constructor (starting from 00:00:00) and provides 3 method to get hours, minutes and seconds of the time.
 
@@ -19,29 +15,30 @@ time.getHours() -> should return 1
 print the result of each method invocation
  */
 public class Time {
-    long millis;
+    long seconds;
 
-    public Time(long millis){
-        if (millis>=0&& millis<=86400) {
-            this.millis = millis;
-        }else{
+    public Time(long millis) {
+        if (millis >= 0 && millis <= 86400) {
+            this.seconds = millis;
+        } else {
             System.out.println("Out of range");
         }
-   }
-    public long getSeconds(){
-        return millis%60;
+    }
+
+    public long getSeconds() {
+        return seconds % 60;
 
     }
 
-    public long getMinutes(){//3820
-        return millis%3600-millis&60;
-
-    }
-    public long getHours(){
-        return millis/3600;
+    public long getMinutes() {//3820
+        return seconds % 3600 - seconds % 60;
 
     }
 
+    public long getHours() {
+        return seconds / 3600;
+
+    }
 
 
 }
