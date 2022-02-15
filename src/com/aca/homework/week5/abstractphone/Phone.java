@@ -3,15 +3,23 @@ package com.aca.homework.week5.abstractphone;
 import java.util.Objects;
 
 public class Phone {
-    String imei;
+    private String imei;
     Model model;
+
+    public String getImei() {
+        return imei;
+    }
+
+    public void setImei(String imei) {
+        this.imei = imei;
+    }
 
 
     @Override
     public String toString() {
         return "Phone{" +
-                "imei='" + imei + '\'' +
-                ", model=" + model.modelType +
+                "imei='" + getImei() + '\'' +
+                ", model=" + model +
                 '}';
     }
 
@@ -20,7 +28,7 @@ public class Phone {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Phone phone = (Phone) o;
-        return Objects.equals(imei, phone.imei) && Objects.equals(model, phone.model);
+        return this.getImei().equals(((Phone) o).imei) && this.model.equals(((Phone) o).model);
     }
 
 }
