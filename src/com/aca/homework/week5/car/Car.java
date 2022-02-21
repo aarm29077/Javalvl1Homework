@@ -12,19 +12,17 @@ Create a method that takes array of objects and for each object print the follow
 "5) brand: bmw, color: black, width: 6, wight 1500"
  */
 public class Car {
-    String color;
-    double width;
-    long weight;
-    String brand;
+    private String color;
+    private double width;
+    private long weight;
+    Brand brand;
 
-    public Car(String color, double width, long weight, String brand) {
+    public Car(String color, double width, long weight) {
         this.color = color;
         this.width = width;
         this.weight = weight;
-        this.brand = brand;
 
     }
-
 
     public String getColor() {
         return color;
@@ -38,9 +36,6 @@ public class Car {
         return weight;
     }
 
-    public String getBrand() {
-        return brand;
-    }
 
     @Override
     public String toString() {

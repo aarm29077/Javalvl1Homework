@@ -26,15 +26,13 @@ public class Test {
             long weight = scanner.nextLong();
             System.out.print("Input brand: ");
             String brand = scanner.next();
-            Car car = new Car(color, width, weight, brand);
+            Car car = new Car(color, width, weight);
             if (brand.equals("bmw") || brand.equals("hyundai")) {
                 carsArray[i] = car;
             }
         }
         print(carsArray);
-
     }
-
     public static void print(Object[] object) {
         for (int i = 0; i < object.length; i++) {
             if (object[i] != null) {
