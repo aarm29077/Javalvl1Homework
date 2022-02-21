@@ -3,7 +3,7 @@ package com.aca.homework.week5.abstractphone;
 public class PhoneService extends AbstractPhoneService {
     private int index;
 
-    private Phone[] array = new Phone[4];
+     Phone[] array ;
 
     @Override
     public Phone PhoneCreate(String imei, Model model) {
