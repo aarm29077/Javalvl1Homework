@@ -1,4 +1,4 @@
-package main.com.asa.homework.week2.whileTest;
+package main.com.aca.homework.week2.whileTest;
 
 public class WhileTest {
     public static void main(String[] args) {

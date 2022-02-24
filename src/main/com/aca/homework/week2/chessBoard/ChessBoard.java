@@ -1,4 +1,4 @@
-package main.com.asa.homework.week2.chessBoard;
+package main.com.aca.homework.week2.chessBoard;
 
 import java.util.Scanner;
 
