@@ -9,13 +9,23 @@ When a user clicks on the UIText the message 'clicked on a text $text having a c
 
  */
 
-public class UIButton extends com.aca.homework.week7.ui.UIView {
+public class UIButton extends UIView {
     private String buttonColor;
-    private long width;
-    private long height;
+
+
+    public UIButton(long width, long height, String buttonColor) {
+        super(width, height);
+        this.buttonColor = buttonColor;
+    }
+
 
     @Override
     public void click() {
-        System.out.println("clicked on a button having a color " + buttonColor );
+        System.out.println("clicked on a button having a color " + buttonColor + this);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
 }

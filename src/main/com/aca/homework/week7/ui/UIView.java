@@ -1,4 +1,5 @@
 package main.com.aca.homework.week7.ui;
+
 /*
 Given the UIView class (user interface presentation component) that has width and height and click method.
 The UIButton class is a UIView and has buttonColor field in addition to width and height fields.
@@ -12,12 +13,17 @@ public class UIView {
     private long width;
     private long height;
 
-    public  void click(){
+    public UIView(long width, long height) {
+        this.width = width;
+        this.height = height;
+    }
+
+    public void click() {
 
     }
 
     @Override
     public String toString() {
-        return ", width: " + width + ", height: " + height ;
+        return ", width: " + width + ", height: " + height;
     }
 }
