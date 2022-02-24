@@ -8,23 +8,30 @@ If it is invoked once again then a new object should not be created but the old 
 
  */
 public class MyInteger {
-    public static MyInteger myInteger = null;
-    int value;
-    MyInteger[] array = new MyInteger[200];
+    MyInteger myInteger;
+    private int value;
+    static MyInteger[] array = new MyInteger[200];
+
+    public MyInteger() {
+    }
 
     public MyInteger(int value){
-        array[value]=myInteger;
+        array[value+100]= new MyInteger();
+
     }
 
     public static MyInteger valueOf(int value) {
-        if (myInteger == null) {
-            myInteger = new MyInteger(value);
+        if (array[value+100]== null) {
+            array[value+100] = new MyInteger(value);
+            return array[value+100];
         }
-        return myInteger;
+        return array[value+100];
     }
 
     public static void main(String[] args) {
-        System.out.println(MyInteger.valueOf(0));
+        System.out.println(MyInteger.valueOf(-100));
+        System.out.println(MyInteger.valueOf(50));
+
 
     }
 }
