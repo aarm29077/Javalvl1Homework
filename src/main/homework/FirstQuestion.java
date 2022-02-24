@@ -1,4 +1,4 @@
-package homework;
+package main.homework;
 /*
 Classwork1
 the first option to solve the problem, the second option in case of minimum value
