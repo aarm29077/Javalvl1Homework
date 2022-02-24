@@ -1,12 +1,14 @@
 package com.aca.homework.week7.clone;
 
-public class Light {
+public class Light implements Cloneable {
 
-    State state;
-    public Light(State state){
-        this.state=state;
+    private State state;
+
+    public Light(State state) {
+        this.state = state;
     }
-    public static Light staticLight(State state){
+
+    public static Light staticLight(State state) {
         return new Light(state);
     }
 
