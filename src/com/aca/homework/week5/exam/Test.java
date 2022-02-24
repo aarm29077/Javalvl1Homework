@@ -5,11 +5,11 @@ public class Test {
 
         Exam[] examsArray = new Exam[2];
 
-        FailedExamTest firstUser = new FailedExamTest("username1");
-        PassedExamTest secondUser = new PassedExamTest("smart-username");
+        Exam failedExamTest = new FailedExamTest("username1");
+        Exam passedExamTest = new PassedExamTest("smart-username");
 
-        examsArray[0] = firstUser;
-        examsArray[1] = secondUser;
+        examsArray[0] = failedExamTest;
+        examsArray[1] = passedExamTest;
 
         print(examsArray);
     }
