@@ -6,42 +6,43 @@ public class Game {
         waitSecond();
 
         User user1 = new User();
-        user1.setUsername();
+        user1.setUsername(1);
         User user2 = new User();
-        user2.setUsername();
+        user2.setUsername(2);
 
         Board board = new Board();
         board.fillBoard();
         board.printBoard();
 
 
-        Coordinate coordinate = new Coordinate();
-        user1.coordinate = coordinate;
-        user2.coordinate = coordinate;
+        Coordinate coordinate1 = new Coordinate();
+        coordinate1.setUser(user1);
+
+        Coordinate coordinate2 = new Coordinate();
+        coordinate2.setUser(user2);
 
         BoardPixel boardPixel = new BoardPixel();
-        boardPixel.boardObject = board;
-        boardPixel.coordinate = coordinate;
 
-        user1.ourBoardPixel = boardPixel;
-        user2.ourBoardPixel = boardPixel;
+        boardPixel.boardObject = board;
+        boardPixel.setCoordinate(coordinate1);
+        boardPixel.setCoordinate(coordinate2);
+
 
         String result = Result.LOST.toString();
 
+
         while (!boardPixel.isWon()) {
 
-            user1.inputCoordinates();
+            coordinate1.inputCoordinates();
             while (boardPixel.isExist()) {
-                user1.inputCoordinates();
+                coordinate1.inputCoordinates();
             }
-
             boardPixel.fillBoard();
             boardPixel.printBoard();
             if (!boardPixel.isWon()) {
-                user2.inputCoordinates();
-
+                coordinate2.inputCoordinates();
                 while (boardPixel.isExist()) {
-                    user2.inputCoordinates();
+                    coordinate2.inputCoordinates();
                 }
                 boardPixel.fillBoard();
                 boardPixel.printBoard();

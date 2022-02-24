@@ -2,25 +2,34 @@ package com.aca.homework.week6.tictactoe;
 
 import java.util.Scanner;
 
+import static com.aca.homework.week6.tictactoe.State.*;
+
 public class BoardPixel {
-    Coordinate coordinate;
+    private Coordinate coordinate;
     Board boardObject;
     private int count = 0;
 
+    public Coordinate getCoordinate() {
+        return coordinate;
+    }
+
+    public void setCoordinate(Coordinate coordinate) {
+        this.coordinate = coordinate;
+    }
 
     public void fillBoard() {
         if ((count == 0 || count % 2 == 0) && !isExist()) {
-            boardObject.board[coordinate.x][coordinate.y] = State.X.toString();
+            boardObject.board[coordinate.getX()][coordinate.getY()] = X;
         } else if (count % 2 == 1 && !isExist()) {
-            boardObject.board[coordinate.x][coordinate.y] = State.O.toString();
+            boardObject.board[coordinate.getX()][coordinate.getY()] = O;
         } else {
             System.out.println("Already exist!! ");
         }
-        ++count;
+        ++this.count;
     }
 
     public boolean isExist() {
-        if (boardObject.board[coordinate.x][coordinate.y].equals("*")) {
+        if (boardObject.board[coordinate.getX()][coordinate.getY()] == EMPTY) {
             return false;
         } else {
             System.out.println("Write again!!");
@@ -49,17 +58,17 @@ public class BoardPixel {
 
 
         for (int i = 0; i < boardObject.board.length; i++) {
-            if (boardObject.board[i][0].equals(boardObject.board[i][1]) && boardObject.board[i][0].equals(boardObject.board[i][2]) && !boardObject.board[i][0].equals("*")) {
+            if (boardObject.board[i][0].equals(boardObject.board[i][1]) && boardObject.board[i][0].equals(boardObject.board[i][2]) && boardObject.board[i][0] != EMPTY) {
                 return true;
-            } else if (boardObject.board[0][i].equals(boardObject.board[1][i]) && boardObject.board[0][i].equals(boardObject.board[2][i]) && !boardObject.board[0][i].equals("*")) {
+            } else if (boardObject.board[0][i].equals(boardObject.board[1][i]) && boardObject.board[0][i].equals(boardObject.board[2][i]) && boardObject.board[0][i] != EMPTY) {
                 return true;
-            } else if (boardObject.board[i][i].equals(State.X.toString())) {
+            } else if (boardObject.board[i][i].equals(X)) {
                 ++countForX1;
-            } else if (boardObject.board[i][i].equals(State.O.toString())) {
+            } else if (boardObject.board[i][i].equals(O)) {
                 ++countForO1;
-            } else if (boardObject.board[i][boardObject.board.length - 1 - i].equals(State.X.toString())) {
+            } else if (boardObject.board[i][boardObject.board.length - 1 - i].equals(X)) {
                 ++countForX2;
-            } else if (boardObject.board[i][boardObject.board.length - 1 - i].equals(State.O.toString())) {
+            } else if (boardObject.board[i][boardObject.board.length - 1 - i].equals(O)) {
                 ++countForO2;
             }
         }

@@ -2,12 +2,12 @@ package com.aca.homework.week6.tictactoe;
 
 public class Board {
 
-    String[][] board = new String[3][3];
+    State[][] board = new State[3][3];
 
     public void fillBoard() {
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
-                board[i][j] = "*";
+                board[i][j] = State.EMPTY;
             }
         }
     }
