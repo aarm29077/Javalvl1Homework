@@ -8,6 +8,6 @@ Create a BufferImpl class that implements the Buffer interface. Implement toStri
 
  */
 public interface Buffer{
-    void put(Buffer buffer);
+    void put(Object buffer);
     Object get(int index);
 }

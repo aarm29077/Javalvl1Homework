@@ -14,7 +14,7 @@ Create a BufferImpl class that implements the Buffer interface. Implement toStri
  */
 public class BufferImpl implements Buffer {
 
-    Buffer[] buffers;
+    Object[] buffers;
 
     private int index = 0;
 
@@ -27,7 +27,7 @@ public class BufferImpl implements Buffer {
     }
 
     @Override
-    public void put(Buffer buffer) {
+    public void put(Object buffer) {
         if (index < 10) {
             buffers[index] = buffer;
             ++index;
@@ -41,12 +41,12 @@ public class BufferImpl implements Buffer {
     @Override
     public Object get(int index) {
         if (buffers[index] != null) {
-            Buffer chosenBuffer = buffers[index];
+            Object chosenBuffer = buffers[index];
             for (int i = index; i < buffers.length - 1; i++) {
                 buffers[i] = buffers[i + 1];
             }
             int size = buffers.length;
-            Buffer[] buffersArray = new Buffer[size];
+            Object[] buffersArray = new Buffer[size];
             for (int i = 0; i < buffersArray.length; i++) {
                 buffersArray[i] = buffers[i];
             }

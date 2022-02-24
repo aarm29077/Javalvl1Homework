@@ -13,9 +13,7 @@ public class BufferTest {
         buffer.put(buffer3);
         buffer.put(buffer4);
 
-        System.out.println(buffer.get(0));
-        System.out.println(buffer.get(2));
-        System.out.println(buffer.get(2));
+        System.out.println(buffer.get(1));
 
     }
 }
