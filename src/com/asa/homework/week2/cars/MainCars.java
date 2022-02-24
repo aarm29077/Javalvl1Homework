@@ -10,11 +10,13 @@ public class MainCars {
             cars[i] = cars1;
         }
         Cars[] ourCars = carsBefore2010(cars);
-        for (int i = 0; i < ourCars.length; i++) {
-            System.out.println(ourCars[i].year);
+        printCars(ourCars);
+    }
+    public static void printCars(Cars[] cars){
+        for (int i = 0; i < cars.length; i++) {
+            System.out.println(cars[i].year);
         }
     }
-
     public static Cars[] carsBefore2010(Cars[] cars) {
         int capacity = 31;
         Cars[] carsArray = new Cars[capacity];
