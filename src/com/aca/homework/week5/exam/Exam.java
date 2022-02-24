@@ -8,12 +8,11 @@ Create one failed exam test for username 'username1' and passed exam test for us
 print the above mentioned methods using toString method.
  */
 public class Exam {
-    String username;
+    private String username;
     boolean passed;
 
-    public Exam(String username, boolean passed) {
+    public Exam(String username) {
         this.username = username;
-        this.passed = passed;
     }
 
     @Override

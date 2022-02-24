@@ -5,8 +5,8 @@ public class Test {
 
         Exam[] examsArray = new Exam[2];
 
-        FailedExamTest firstUser = new FailedExamTest("username1", false);
-        PassedExamTest secondUser = new PassedExamTest("smart-username", true);
+        FailedExamTest firstUser = new FailedExamTest("username1");
+        PassedExamTest secondUser = new PassedExamTest("smart-username");
 
         examsArray[0] = firstUser;
         examsArray[1] = secondUser;
