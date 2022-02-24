@@ -1,6 +1,6 @@
 package com.aca.homework.week6.list;
 
-public class ArrayList {
+public class ArrayList implements List {
     private int capacity;
     private String[] array;
     private int index;
@@ -27,13 +27,14 @@ public class ArrayList {
         ++index;
     }
 
-    public void get(int getIndex) {
+    public String get(int getIndex) {
 
         if (array[getIndex] != null) {
-            System.out.println(array[getIndex]);
+            return array[getIndex];
         } else {
             throw new RuntimeException("Empty");
         }
+
     }
 
 

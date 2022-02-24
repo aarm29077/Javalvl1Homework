@@ -29,7 +29,7 @@ public class Test {
         arraylist.add("6");
         arraylist.add("9");
 
-        arraylist.get(9);
-        arraylist.get(10);
+        System.out.println(arraylist.get(9));
+        System.out.println(arraylist.get(10));
     }
 }
