@@ -1,4 +1,4 @@
-package com.aca.homework.week4.developer;
+package main.com.aca.homework.week4.developer;
 
 public class JuniorDeveloper extends Developer {
 
