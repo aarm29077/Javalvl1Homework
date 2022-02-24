@@ -16,7 +16,7 @@ public class Button implements Action{
         return text;
     }
 
-    @Override
+
     public String click() {
         return text;
     }

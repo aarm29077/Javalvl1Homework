@@ -12,6 +12,6 @@ Implement the click logic by passing an anonymous instance of the Action interfa
 class ButtonTest {
     public static void main(String[] args) {
         Button action = new Button();
-        action.doAction();
+        System.out.println(action.doAction().click());
     }
 }
