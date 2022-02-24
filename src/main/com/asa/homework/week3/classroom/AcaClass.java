@@ -1,4 +1,4 @@
-package com.asa.homework.week3.classroom;
+package main.com.asa.homework.week3.classroom;
 
 public class AcaClass {
     Student student[];

@@ -1,4 +1,4 @@
-package com.aca.homework.week7.ui;
+package main.com.aca.homework.week7.ui;
 
 /*
 Given the UIView class (user interface presentation component) that has width and height and click method.
@@ -9,7 +9,7 @@ When a user clicks on the UIText the message 'clicked on a text $text having a c
 
  */
 
-public class UIButton extends UIView{
+public class UIButton extends com.aca.homework.week7.ui.UIView {
     private String buttonColor;
     private long width;
     private long height;

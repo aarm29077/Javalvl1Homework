@@ -1,4 +1,4 @@
-package com.asa.homework.week2.pattern;
+package main.com.asa.homework.week2.pattern;
 
 import java.util.Scanner;
 

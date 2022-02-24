@@ -1,4 +1,4 @@
-package com.asa.homework.week2.symbolcount;
+package main.com.asa.homework.week2.symbolcount;
 
 import java.util.Scanner;
 

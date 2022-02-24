@@ -1,4 +1,4 @@
-package com.aca.homework.week7.ui;
+package main.com.aca.homework.week7.ui;
 /*
 
 Given the UIView class (user interface presentation component) that has width and height and click method.

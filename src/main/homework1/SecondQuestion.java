@@ -1,4 +1,4 @@
-package homework1;
+package main.homework1;
 
 public class SecondQuestion {
     public static void main(String[] args){

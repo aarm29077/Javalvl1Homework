@@ -1,4 +1,4 @@
-package com.asa.homework.week3.covidtest;
+package main.com.asa.homework.week3.covidtest;
 
 public class CovidTest {
 
