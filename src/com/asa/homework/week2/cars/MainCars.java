@@ -9,21 +9,27 @@ public class MainCars {
             cars1.year = 1980 + i;
             cars[i] = cars1;
         }
-            carsAfter2010(cars);
-    }
-    public static void carsBefore2010(Cars[] cars) {
-        for (int i = 0; i < cars.length; i++) {
-            if (cars[i].year<2010) {
-                System.out.println(cars[i].brand + " " + cars[i].year);
-            }
-        }
-    }
-    public static void carsAfter2010(Cars[] cars){
-        for (int i = 0; i < cars.length ; i++) {
-            if (cars[i].year>2010){
-                System.out.println(cars[i].brand + " " + cars[i].year);
-            }
+        Cars[] ourCars = carsBefore2010(cars);
+        for (int i = 0; i < ourCars.length; i++) {
+            System.out.println(ourCars[i].year);
         }
     }
 
+    public static Cars[] carsBefore2010(Cars[] cars) {
+        int capacity = 31;
+        Cars[] carsArray = new Cars[capacity];
+        for (int i = 0; i < carsArray.length; i++) {
+            carsArray[i] = cars[i];
+        }
+        return carsArray;
+    }
+
+    public static Cars[] carsAfter2010(Cars[] cars) {
+        int capacity = 10;
+        Cars[] carsArray = new Cars[capacity];
+        for (int i = 0; i < capacity; i++) {
+            carsArray[i] = cars[i + 31];
+        }
+        return carsArray;
+    }
 }
