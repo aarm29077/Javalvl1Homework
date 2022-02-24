@@ -9,5 +9,17 @@ public enum ProgrammerLevel {
     Mid,
     Senior;
 
+    @Override
+    public String toString() {
+        if (this == Junior) {
+            return  "Junior programmer";
+        } else if (this == Mid) {
+            return Mid + "Mid programmer";
+        }
+        return "Senior programmer";
+    }
 
+    public static void main(String[] args) {
+        System.out.println(ProgrammerLevel.Junior);
+    }
 }
