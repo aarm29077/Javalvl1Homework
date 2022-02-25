@@ -23,13 +23,11 @@ public class Main {
         System.out.println();
 
         DrivingLicense drivingLicense = new DrivingLicense();
-        firstUser.setLicense(String.valueOf(drivingLicense.license[1] +""+ drivingLicense.license[2]));
+        firstUser.setLicense(String.valueOf(drivingLicense.license[1] + "" + drivingLicense.license[2]));
 
 
         System.out.println("Policeman stopped !!");
         System.out.println(firstUser.getLicense());
-
-
 
 
     }

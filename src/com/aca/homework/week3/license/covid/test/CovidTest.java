@@ -28,9 +28,9 @@ public class CovidTest {
         getResult();
     }
 
-    public void wait3Seconds(){
+    public void wait3Seconds() {
         long startMillis = System.currentTimeMillis();
-        while (System.currentTimeMillis()-startMillis<3000){
+        while (System.currentTimeMillis() - startMillis < 3000) {
         }
     }
 }
