@@ -1,4 +1,4 @@
-package com.aca.homework.week3.numbers.maxMin;
+package main.com.aca.homework.week3.numbers.maxMin;
 
 public class Numbers {
     private int number1;
