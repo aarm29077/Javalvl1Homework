@@ -1,36 +1,38 @@
 package main.com.aca.homework.week7.list.empty;
 
-public class FixedSizeList implements List{
+public class FixedSizeList implements List {
     Object[] lists = new Object[10];
     private int index = 0;
 
     @Override
     public int size() {
-        return index;
+        if (index < 10) {
+            return index;
+        }
+        return 10;
     }
 
     @Override
     public void add(Object o) {
-        if (index >9){
+        if (index > 9) {
             System.out.println("The list is full");
-        }else{
-            lists[index]= o;
+        } else {
+            lists[index] = o;
         }
-            ++index;
+        ++index;
     }
 
     @Override
     public boolean isEmpty() {
-        return false;
+        return lists[0] == null;
     }
 
     @Override
     public Object get(int index) {
-        if (index>=this.index){
-            System.out.println("error");
-        }else{
+        if (index >= this.index) {
+            return "You can not get the object";
+        } else {
             return lists[index];
         }
-        return -1;
     }
 }
