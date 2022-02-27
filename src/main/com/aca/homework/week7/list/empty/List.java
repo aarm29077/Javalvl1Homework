@@ -14,6 +14,7 @@ public interface List {
     }
 
     static List ofEmpty() {
+
         return new List() {
             private int capacity = 16;
             Object[] lists = new Object[capacity];

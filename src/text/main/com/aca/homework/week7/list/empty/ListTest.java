@@ -24,6 +24,7 @@ class ListTest {
         list2.add("gg");
         list2.add("hh");
         list2.add("ii");
+
         System.out.println(list2.get(4));
         System.out.println(list2.size());
 

@@ -1,6 +1,7 @@
 package main.com.aca.homework.week7.list.empty;
 
 public class FixedSizeList implements List {
+
     Object[] lists = new Object[10];
     private int index = 0;
 
