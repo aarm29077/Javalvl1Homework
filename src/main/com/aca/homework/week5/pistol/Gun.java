@@ -1,4 +1,4 @@
-package com.aca.homework.week5.pistol;
+package main.com.aca.homework.week5.pistol;
 
 public class Gun {
     private String name;

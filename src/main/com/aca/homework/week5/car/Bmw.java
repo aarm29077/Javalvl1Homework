@@ -1,4 +1,4 @@
-package com.aca.homework.week5.car;
+package main.com.aca.homework.week5.car;
 
 public class Bmw extends Car {
     Brand brand;
