@@ -3,8 +3,8 @@ package com.aca.homework.week6.tictactoe;
 import java.util.Scanner;
 
 public class User {
-    private String username;
 
+    private String username;
 
     public String getUsername() {
         return username;

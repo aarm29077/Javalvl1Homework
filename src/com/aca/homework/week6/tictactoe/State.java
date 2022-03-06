@@ -9,9 +9,9 @@ public enum State {
     public String toString() {
         if (this == EMPTY) {
             return "*";
-        }else if (this==X){
+        } else if (this == X) {
             return "X";
-        }else if (this==O){
+        } else if (this == O) {
             return "O";
         }
         return "Error";
