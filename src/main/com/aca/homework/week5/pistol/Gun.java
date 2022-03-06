@@ -2,6 +2,7 @@ package main.com.aca.homework.week5.pistol;
 
 public class Gun {
     private String name;
+
     private String shoot;
 
     public String getName() {

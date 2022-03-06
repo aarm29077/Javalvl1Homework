@@ -1,6 +1,6 @@
 package main.com.aca.homework.week5.pistol;
 
-public class MakarovPistol extends Gun{
+public class MakarovPistol extends Gun {
     @Override
     public String getName() {
         return "makarov";
@@ -8,6 +8,6 @@ public class MakarovPistol extends Gun{
 
     @Override
     public String getShoot() {
-        return  "makarov fire!";
+        return "makarov fire!";
     }
 }

@@ -9,6 +9,6 @@ public class AirPistol extends Gun {
 
     @Override
     public String getShoot() {
-        return  "air pistol fire!";
+        return "air pistol fire!";
     }
 }

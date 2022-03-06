@@ -15,25 +15,26 @@ public class GunStore {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Gun[] gunsArray = new Gun[4];
-        for (int i = 0; i <gunsArray.length; i++) {
+        for (int i = 0; i < gunsArray.length; i++) {
             System.out.print("What is the gun name? (makarov, nagant or air ) : ");
             String name = scanner.next();
 
 
-            if (name.equals("makarov")){
+            if (name.equals("makarov")) {
                 MakarovPistol makarovPistol = new MakarovPistol();
-                gunsArray[i]=makarovPistol;
-            }else if (name.equals("nagant")){
+                gunsArray[i] = makarovPistol;
+            } else if (name.equals("nagant")) {
                 NagantPistol nagantPistol = new NagantPistol();
-                gunsArray[i]=nagantPistol;
-            }else if (name.equals("air")){
+                gunsArray[i] = nagantPistol;
+            } else if (name.equals("air")) {
                 AirPistol airPistol = new AirPistol();
-                gunsArray[i]=airPistol;
+                gunsArray[i] = airPistol;
             }
         }
         print(gunsArray);
     }
-    public static void print(Gun[] array){
+
+    public static void print(Gun[] array) {
         for (Gun gun : array) {
             if (gun != null) {
                 System.out.println(gun);
