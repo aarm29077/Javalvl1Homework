@@ -1,4 +1,4 @@
-package com.aca.homework.week5.equals;
+package main.com.aca.homework.week5.equals;
 
 /*
 Create an Owner class that has firstName and lastName. Implement toString and equals method.

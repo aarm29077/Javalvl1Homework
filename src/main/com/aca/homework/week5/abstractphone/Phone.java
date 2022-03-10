@@ -1,6 +1,4 @@
-package com.aca.homework.week5.abstractphone;
-
-import java.util.Objects;
+package main.com.aca.homework.week5.abstractphone;
 
 public class Phone {
     private String imei;

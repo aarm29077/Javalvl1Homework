@@ -1,4 +1,4 @@
-package com.aca.homework.week5.equals;
+package main.com.aca.homework.week5.equals;
 
 import java.util.Objects;
 

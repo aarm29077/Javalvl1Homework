@@ -1,4 +1,4 @@
-package com.aca.homework.week2.user.creation;
+package main.com.aca.homework.week2.user.creation;
 
 import java.util.Scanner;
 

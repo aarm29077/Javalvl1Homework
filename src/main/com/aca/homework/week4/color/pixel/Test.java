@@ -1,4 +1,4 @@
-package com.aca.homework.week4.color.pixel;
+package main.com.aca.homework.week4.color.pixel;
 
 public class Test {
     public static void main(String[] args) {
