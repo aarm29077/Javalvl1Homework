@@ -1,4 +1,4 @@
-package main.com.aca.homework.week1.homework3;
+package com.aca.homework.week1.homework3;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class SeventhQuestion {
         System.out.print("Input fibonacci number index: ");
         int index = scanner.nextInt();
         int fibNumber = 0;
-        int sum=0;
+        int sum = 0;
 
 
         if (index == 1) {
@@ -24,7 +24,7 @@ public class SeventhQuestion {
                 fibonacciFirstNumber = fibonacciSecondNumber;
                 fibonacciSecondNumber = fibNumber;
                 fibNumber = fibonacciFirstNumber + fibonacciSecondNumber;
-                sum+=fibNumber;
+                sum += fibNumber;
             }
 //            System.out.println(fibNumber);
             System.out.println("Sum is: " + sum);

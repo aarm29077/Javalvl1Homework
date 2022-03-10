@@ -1,5 +1,7 @@
-package main.com.aca.homework.week1.homework2;
+package com.aca.homework.week1.homework2;
+
 import java.util.Scanner;
+
 public class SeventhQuestion {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -11,27 +13,24 @@ public class SeventhQuestion {
         String yearName = null;
 
 
-
-        if(monthNumber>=1 && monthNumber<=12) {
+        if (monthNumber >= 1 && monthNumber <= 12) {
             System.out.print("Input year number: ");
             yearNumber = scanner.nextInt();
-        }else{
+        } else {
             System.out.println("Error");
         }
-
 
 
         if (yearNumber % 4 == 0) {
             if (yearNumber % 100 == 0 && yearNumber % 400 == 0) {
                 yearName = "Leap year";
-            } else if( yearNumber % 100 == 0 && yearNumber % 400 !=0){
+            } else if (yearNumber % 100 == 0 && yearNumber % 400 != 0) {
                 yearName = "Common year";
+            } else {
+                yearName = "Leap year";
             }
-            else {
-                yearName= "Leap year";
-            }
-        }else{
-            yearName="Common year";
+        } else {
+            yearName = "Common year";
         }
 
 
@@ -68,34 +67,29 @@ public class SeventhQuestion {
             monthName = "July";
             dayQuantity = 31;
             System.out.println(monthName + " " + yearNumber + " has " + dayQuantity + " days.");
-        }
-        else if(monthNumber ==8){
-            monthName="August";
-            dayQuantity=31;
+        } else if (monthNumber == 8) {
+            monthName = "August";
+            dayQuantity = 31;
             System.out.println(monthName + " " + yearNumber + " has " + dayQuantity + " days.");
-        }
-        else if(monthNumber ==9){
-            monthName="September";
-            dayQuantity=30;
+        } else if (monthNumber == 9) {
+            monthName = "September";
+            dayQuantity = 30;
             System.out.println(monthName + " " + yearNumber + " has " + dayQuantity + " days.");
-        }
-        else if (monthNumber == 10){
+        } else if (monthNumber == 10) {
             monthName = "October";
-            dayQuantity=31;
+            dayQuantity = 31;
             System.out.println(monthName + " " + yearNumber + " has " + dayQuantity + " days.");
-        }
-        else if(monthNumber == 11){
+        } else if (monthNumber == 11) {
             monthName = "November";
-            dayQuantity=30;
+            dayQuantity = 30;
             System.out.println(monthName + " " + yearNumber + " has " + dayQuantity + " days.");
-        }
-        else if (monthNumber == 12){
+        } else if (monthNumber == 12) {
             monthName = " December";
             dayQuantity = 31;
             System.out.println(monthName + " " + yearNumber + " has " + dayQuantity + " days.");
         }
 
-    //switch case-erov aveli hesht kliner. Qani vor chenq ancel, pordzeci ays tarberakov
+        //switch case-erov aveli hesht kliner. Qani vor chenq ancel, pordzeci ays tarberakov
     }
 }
 

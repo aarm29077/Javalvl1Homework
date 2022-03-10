@@ -1,12 +1,12 @@
-package main.com.aca.homework.week5.abstractphone;
+package com.aca.homework.week5.abstractphone;
 
 
 public class Test {
     public static void main(String[] args) {
 
-        Phone [] phones = new Phone[4];
+        Phone[] phones = new Phone[4];
         PhoneService phoneService = new PhoneService();
-        phoneService.array=phones;
+        phoneService.array = phones;
 
         Model model1 = Model.SAMSUNG;
         phoneService.PhoneCreate("351978946541895", model1);

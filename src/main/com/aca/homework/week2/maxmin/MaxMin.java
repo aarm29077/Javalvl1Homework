@@ -1,4 +1,4 @@
-package main.com.aca.homework.week2.maxmin;
+package com.aca.homework.week2.maxmin;
 
 public class MaxMin {
     long Max;

@@ -1,4 +1,4 @@
-package main.com.aca.homework.week3.numbers.maxMin;
+package com.aca.homework.week3.numbers.maxMin;
 
 public class Numbers {
     private int number1;
@@ -27,8 +27,8 @@ public class Numbers {
         int[] array = new int[]{number1, number2, number3};
         int min = array[0];
         for (int i = 1; i < array.length; i++) {
-            if (array[i]<min){
-                min=array[i];
+            if (array[i] < min) {
+                min = array[i];
             }
         }
         return min;

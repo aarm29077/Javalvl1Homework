@@ -1,4 +1,4 @@
-package main.com.aca.homework.week1.homework;
+package com.aca.homework.week1.homework;
 
 public class ThirdQuestion {
     public static void main(String[] args) {
@@ -18,8 +18,9 @@ public class ThirdQuestion {
 
                 ));
     }
-    public static long min(long a , long b){
+
+    public static long min(long a, long b) {
         System.out.println("a = " + a + ", b = " + b);
-        return a<b ? a : b ;
+        return a < b ? a : b;
     }
 }

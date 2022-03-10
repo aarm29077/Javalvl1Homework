@@ -1,4 +1,4 @@
-package main.com.aca.homework.week2.maxmin;
+package com.aca.homework.week2.maxmin;
 
 import java.util.Scanner;
 
@@ -18,9 +18,9 @@ public class Main {
         MaxMin numbers = new MaxMin();
         if (a > b) {
             numbers.Max = a;
-            numbers.Min= b;
+            numbers.Min = b;
         }
-        numbers.Max=b;
+        numbers.Max = b;
         numbers.Min = a;
         return numbers;
     }

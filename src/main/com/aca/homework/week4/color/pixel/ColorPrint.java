@@ -1,4 +1,5 @@
-package main.com.aca.homework.week4.color.pixel;
+package com.aca.homework.week4.color.pixel;
+
 /*
 Create a Pixel that has x and y numeral coordinates and a default constructor.
 Create a ColorPixel that extended from Pixel and has a color field.

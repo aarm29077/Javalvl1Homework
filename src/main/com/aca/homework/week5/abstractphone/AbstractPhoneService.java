@@ -1,4 +1,4 @@
-package main.com.aca.homework.week5.abstractphone;
+package com.aca.homework.week5.abstractphone;
 
 
 public abstract class AbstractPhoneService {

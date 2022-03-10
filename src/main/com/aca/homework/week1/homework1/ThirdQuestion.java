@@ -1,9 +1,9 @@
-package main.com.aca.homework.week1.homework1;
+package com.aca.homework.week1.homework1;
 
 public class ThirdQuestion {
     public static void main(String[] args) {
         System.out.println("Please input number c 1-4. If you enter another number your result will be 0.");
-        int action1 = action(597,89,2);
+        int action1 = action(597, 89, 2);
         System.out.println(action1);
     }
 

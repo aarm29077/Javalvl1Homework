@@ -1,4 +1,4 @@
-package main.com.aca.homework.week3.test;
+package com.aca.homework.week3.test;
 
 public class Main {
     //    Create a User having fields username and name. Create a CovidTest class that has fields user and result.

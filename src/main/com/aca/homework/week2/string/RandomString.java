@@ -1,4 +1,4 @@
-package main.com.aca.homework.week2.string;
+package com.aca.homework.week2.string;
 
 import java.util.Random;
 import java.util.Scanner;

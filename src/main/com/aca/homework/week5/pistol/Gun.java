@@ -1,4 +1,4 @@
-package main.com.aca.homework.week5.pistol;
+package com.aca.homework.week5.pistol;
 
 public class Gun {
     private String name;
@@ -15,6 +15,6 @@ public class Gun {
 
     @Override
     public String toString() {
-        return getName() + ": " + getShoot() ;
+        return getName() + ": " + getShoot();
     }
 }

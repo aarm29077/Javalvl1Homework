@@ -1,4 +1,4 @@
-package main.com.aca.homework.week2.pattern;
+package com.aca.homework.week2.pattern;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package main.com.aca.homework.week2.user.creation;
+package com.aca.homework.week2.user.creation;
 
 import java.util.Scanner;
 
@@ -14,9 +14,9 @@ public class UserTest {
         user2.height = 169;
         persons[1] = user2;
         User user3 = new User();
-        user3.name="Nicolas";
-        user3.height=175;
-        persons[2]=user3;
+        user3.name = "Nicolas";
+        user3.height = 175;
+        persons[2] = user3;
         printUser(persons);
     }
 

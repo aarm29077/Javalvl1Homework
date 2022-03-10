@@ -1,4 +1,4 @@
-package main.com.aca.homework.week4.image;
+package com.aca.homework.week4.image;
 
 public class Image {
 

@@ -1,4 +1,4 @@
-package main.com.aca.homework.week5.exam;
+package com.aca.homework.week5.exam;
 
 public class Test {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package main.com.aca.homework.week5.car;
+package com.aca.homework.week5.car;
 /*
 Create Car class that has color, width, weight, and brand fields and getters only. All fields of the Car class should be initialized within a constructor.
 Create Hyundai and Bmw subclasses.
@@ -33,6 +33,7 @@ public class Test {
         }
         print(carsArray);
     }
+
     public static void print(Object[] object) {
         for (int i = 0; i < object.length; i++) {
             if (object[i] != null) {

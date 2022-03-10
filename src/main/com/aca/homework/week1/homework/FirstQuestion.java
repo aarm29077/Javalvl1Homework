@@ -1,4 +1,5 @@
-package main.com.aca.homework.week1.homework;
+package com.aca.homework.week1.homework;
+
 /*
 Classwork1
 the first option to solve the problem, the second option in case of minimum value
@@ -6,11 +7,11 @@ the first option to solve the problem, the second option in case of minimum valu
 public class FirstQuestion {
     public static void main(String[] args) {
         long max = max(15, 98);
-        long i1=541645;
-        long i2=145;
-        long i3=614;
-        long i4 =9087;
-        long i5=98876;
+        long i1 = 541645;
+        long i2 = 145;
+        long i3 = 614;
+        long i4 = 9087;
+        long i5 = 98876;
 //        long max1 = max(15, 34);
 //        long max2=max(i1 , max1);
 //        long max3 = max(i2, max2);
@@ -24,7 +25,7 @@ public class FirstQuestion {
                         i2,
                         max(
                                 i3,
-                                max(i4,i5)
+                                max(i4, i5)
                         )
                 )
         );
@@ -32,7 +33,7 @@ public class FirstQuestion {
 
     public static long max(long a, long b) {
         System.out.println("a = " + a + ", b = " + b);
-        return a>b ? a:b ;
+        return a > b ? a : b;
 /*
         if (i1 > i2) {
             return i1;

@@ -1,4 +1,4 @@
-package main.com.aca.homework.week5.pistol;
+package com.aca.homework.week5.pistol;
 
 public class MakarovPistol extends Gun {
     @Override

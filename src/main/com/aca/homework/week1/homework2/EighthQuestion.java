@@ -1,5 +1,7 @@
-package main.com.aca.homework.week1.homework2;
+package com.aca.homework.week1.homework2;
+
 import java.util.Scanner;
+
 public class EighthQuestion {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

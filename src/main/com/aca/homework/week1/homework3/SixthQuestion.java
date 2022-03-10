@@ -1,5 +1,7 @@
-package main.com.aca.homework.week1.homework3;
+package com.aca.homework.week1.homework3;
+
 import java.util.Scanner;
+
 public class SixthQuestion {
     public static void main(String[] args) {
 /*
@@ -27,4 +29,4 @@ public class SixthQuestion {
             System.out.println(fibNumber);
         }
     }
-    }
+}

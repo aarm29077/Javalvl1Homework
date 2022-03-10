@@ -1,4 +1,4 @@
-package main.com.aca.homework.week5.programmer.level;
+package com.aca.homework.week5.programmer.level;
 
 /*
 Create a ProgrammerLevel enum class that has 2 constants: JUNIOR, MID, SENIOR.
@@ -12,7 +12,7 @@ public enum ProgrammerLevel {
     @Override
     public String toString() {
         if (this == Junior) {
-            return  "Junior programmer";
+            return "Junior programmer";
         } else if (this == Mid) {
             return Mid + "Mid programmer";
         }

@@ -1,4 +1,4 @@
-package main.com.aca.homework.week2.projectuptime;
+package com.aca.homework.week2.projectuptime;
 
 public class Project {
     String name;

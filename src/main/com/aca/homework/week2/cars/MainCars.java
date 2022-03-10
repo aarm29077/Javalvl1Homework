@@ -1,4 +1,4 @@
-package main.com.aca.homework.week2.cars;
+package com.aca.homework.week2.cars;
 
 public class MainCars {
     public static void main(String[] args) {
@@ -12,11 +12,13 @@ public class MainCars {
         Cars[] ourCars = carsBefore2010(cars);
         printCars(ourCars);
     }
-    public static void printCars(Cars[] cars){
+
+    public static void printCars(Cars[] cars) {
         for (int i = 0; i < cars.length; i++) {
             System.out.println(cars[i].year);
         }
     }
+
     public static Cars[] carsBefore2010(Cars[] cars) {
         int capacity = 31;
         Cars[] carsArray = new Cars[capacity];

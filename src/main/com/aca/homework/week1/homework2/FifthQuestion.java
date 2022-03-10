@@ -1,5 +1,7 @@
-package main.com.aca.homework.week1.homework2;
+package com.aca.homework.week1.homework2;
+
 import java.util.Scanner;
+
 public class FifthQuestion {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -7,60 +9,53 @@ public class FifthQuestion {
         int number = scanner.nextInt();
 
         //1
-        if ( number > 0  && number < 8){
-            if( number == 1){
+        if (number > 0 && number < 8) {
+            if (number == 1) {
                 System.out.println("Monday");
-            }
-            else if( number == 2){
+            } else if (number == 2) {
                 System.out.println("Tuesday");
-            }
-            else if( number == 3){
+            } else if (number == 3) {
                 System.out.println("Wednesday");
-            }
-            else if( number == 4 ){
+            } else if (number == 4) {
                 System.out.println("Thursday");
-            }
-            else if (number == 5){
+            } else if (number == 5) {
                 System.out.println("Friday");
-            }
-            else if ( number == 6){
+            } else if (number == 6) {
                 System.out.println("Saturday");
-            }
-            else{
+            } else {
                 System.out.println("Sunday");
-        }
-    }
-        else{
+            }
+        } else {
             System.out.println("Error");
         }
         //2
         System.out.print("Input number: ");
         int number1 = scanner.nextInt();
-        switch (number1){
-            case 1 :
+        switch (number1) {
+            case 1:
                 System.out.println("Monday");
                 break;
-            case 2 :
+            case 2:
                 System.out.println("Tuesday");
                 break;
-            case 3 :
+            case 3:
                 System.out.println("Wednesday");
                 break;
-            case 4 :
+            case 4:
                 System.out.println("Thursday");
                 break;
-            case 5 :
+            case 5:
                 System.out.println("Friday");
                 break;
-            case 6 :
+            case 6:
                 System.out.println("Saturday");
                 break;
-            case 7 :
+            case 7:
                 System.out.println("Sunday");
                 break;
             default:
                 System.out.println("Error");
         }
 
-}
+    }
 }

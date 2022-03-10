@@ -1,4 +1,4 @@
-package main.com.aca.homework.week1.homework3;
+package com.aca.homework.week1.homework3;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class EightQuestion {
         }
         System.out.println();
         int linenumber = 0;
-        
+
         String board[][] = new String[10][10];
         for (int i = 0; i < board.length; i++) {
             System.out.print(linenumber + "  ");

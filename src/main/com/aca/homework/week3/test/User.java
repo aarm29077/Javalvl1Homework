@@ -1,4 +1,4 @@
-package main.com.aca.homework.week3.test;
+package com.aca.homework.week3.test;
 
 public class User {
 

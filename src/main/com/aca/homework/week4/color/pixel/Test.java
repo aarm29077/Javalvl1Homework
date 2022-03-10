@@ -1,4 +1,4 @@
-package main.com.aca.homework.week4.color.pixel;
+package com.aca.homework.week4.color.pixel;
 
 public class Test {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class Test {
         colorPrint1.setX(4);
         colorPrint1.setY(2);
 
-        ColorPrint colorPrint2=new ColorPrint();
+        ColorPrint colorPrint2 = new ColorPrint();
         colorPrint2.setColor("red");
         colorPrint2.setX(6);
         colorPrint2.setY(3);

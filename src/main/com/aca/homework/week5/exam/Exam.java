@@ -1,4 +1,4 @@
-package main.com.aca.homework.week5.exam;
+package com.aca.homework.week5.exam;
 
 /*
 Create ExamTest class that has username and passed boolean flag. The only constructor should take username a passed fields.

@@ -1,4 +1,4 @@
-package main.com.aca.homework.week4.color.pixel;
+package com.aca.homework.week4.color.pixel;
 
 public class Pixel {
     /*
@@ -12,9 +12,10 @@ public class Pixel {
     private int x;
     private int y;
 
-    public Pixel(){
+    public Pixel() {
 
     }
+
     public int getX() {
         return x;
     }

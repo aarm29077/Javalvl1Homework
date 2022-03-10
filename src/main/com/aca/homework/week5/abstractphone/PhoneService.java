@@ -1,15 +1,15 @@
-package main.com.aca.homework.week5.abstractphone;
+package com.aca.homework.week5.abstractphone;
 
 public class PhoneService extends AbstractPhoneService {
     private int index;
 
-     Phone[] array ;
+    Phone[] array;
 
     @Override
     public Phone PhoneCreate(String imei, Model model) {
         Phone phone = new Phone();
         phone.setImei(imei);
-        phone.model=model;
+        phone.model = model;
         this.array[index] = phone;
         ++index;
 

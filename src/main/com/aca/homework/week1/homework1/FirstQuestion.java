@@ -1,11 +1,10 @@
-package main.com.aca.homework.week1.homework1;
+package com.aca.homework.week1.homework1;
 
 public class FirstQuestion {
     public static void main(String[] args) {
-    int max = max(25987,598,1455);
+        int max = max(25987, 598, 1455);
         System.out.println(max);
     }
-
 
 
     public static int max(int v1, int v2, int v3) {

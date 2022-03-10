@@ -1,4 +1,4 @@
-package main.com.aca.homework.week4.time;
+package com.aca.homework.week4.time;
 
 
 public class Test {

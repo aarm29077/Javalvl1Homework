@@ -1,5 +1,7 @@
-package main.com.aca.homework.week1.homework3;
+package com.aca.homework.week1.homework3;
+
 import java.util.Scanner;
+
 public class FourthQuestion {
     /*    Write a Simple program that takes as input 20 numbers in the range [0,100], if the
         number is out of range program must output to user message that the input number is out of
@@ -17,11 +19,11 @@ public class FourthQuestion {
             System.out.print("Input number: ");
             array[i] = scanner.nextInt();
             if (checkNumber(array[i])) {
-                sum+=array[i];
-                if (i ==array.length-1){
+                sum += array[i];
+                if (i == array.length - 1) {
                     System.out.println("The sum is: " + sum);
                 }
-            }else{
+            } else {
                 System.out.println("The number is out of range.");
                 break;
             }

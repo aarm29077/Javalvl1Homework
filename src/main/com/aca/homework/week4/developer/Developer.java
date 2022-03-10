@@ -1,4 +1,4 @@
-package main.com.aca.homework.week4.developer;
+package com.aca.homework.week4.developer;
 
 public class Developer {
     /*
