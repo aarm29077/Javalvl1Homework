@@ -1,7 +1,7 @@
 package com.aca.classwork.classwork13.annotations;
 
 
-import classwork13.perfomance.StringMakerResult;
+import com.aca.classwork.classwork13.perfomance.StringMakerResult;
 import com.aca.classwork.classwork13.perfomance.StringMakerResult;
 
 public interface StringMaker {
