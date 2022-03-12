@@ -1,4 +1,4 @@
-package main.com.aca.homework.week7.ui;
+package com.aca.homework.week7.ui;
 
 /*
 Given the UIView class (user interface presentation component) that has width and height and click method.
@@ -10,12 +10,12 @@ When a user clicks on the UIText the message 'clicked on a text $text having a c
  */
 
 public class UIButton extends UIView {
-    private String buttonColor;
+    private String buttonColor ;
     private long width;
     private long height;
 
     @Override
     public void click() {
-        System.out.println("clicked on a button having a color " + buttonColor );
+        System.out.println("clicked on a button having a color " + buttonColor);
     }
 }
