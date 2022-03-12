@@ -1,6 +1,6 @@
 package com.aca.classwork.classwork10.buffer;
 
-import classwork10.buffer.Buffer;
+import com.aca.classwork.classwork10.buffer.Buffer;
 
 import java.util.Scanner;
 

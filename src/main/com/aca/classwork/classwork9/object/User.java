@@ -1,7 +1,5 @@
 package com.aca.classwork.classwork9.object;
 
-import firstlesson.Main;
-
 public class User {
     private String name;
     private String password;

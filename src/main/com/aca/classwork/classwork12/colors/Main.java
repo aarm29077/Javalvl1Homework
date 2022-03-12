@@ -1,6 +1,6 @@
 package com.aca.classwork.classwork12.colors;
 
-import classwork12.colors.ColorType;
+import com.aca.classwork.classwork12.colors.ColorType;
 
 public class Main {
 
