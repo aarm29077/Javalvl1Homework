@@ -11,7 +11,6 @@ When a user clicks on the UIText the message 'clicked on a text $text having a c
 public class UIView {
 
     private long width;
-
     private long height;
 
     public void click() {

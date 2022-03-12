@@ -10,7 +10,7 @@ When a user clicks on the UIText the message 'clicked on a text $text having a c
  */
 
 public class UIButton extends UIView {
-    private String buttonColor ;
+    private String buttonColor;
     private long width;
     private long height;
 

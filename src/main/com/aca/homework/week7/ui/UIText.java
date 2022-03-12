@@ -17,7 +17,7 @@ public class UIText extends UIView {
 
     @Override
     public void click() {
-         System.out.println("clicked on a button having a color " + textColor);
+        System.out.println("clicked on a button having a color " + textColor);
     }
 
 }
