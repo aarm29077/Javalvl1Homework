@@ -1,4 +1,5 @@
-package main.com.aca.homework.week7.clone;
+package com.aca.homework.week7.clone;
+
 /*
 Create a Light class that is a Cloneable. The Light should have ON/OFF state, and static factory to create on and off light.
 Implement the clone method.
