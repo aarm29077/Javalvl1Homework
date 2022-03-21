@@ -38,4 +38,14 @@ public class Order {
     public void setPurchasedUser(User purchasedUser) {
         this.purchasedUser = purchasedUser;
     }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", purchasedUser=" + purchasedUser +
+                '}';
+    }
 }

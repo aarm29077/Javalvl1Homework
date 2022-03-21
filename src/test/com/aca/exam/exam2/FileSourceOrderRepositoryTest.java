@@ -31,6 +31,6 @@ class FileSourceOrderRepositoryTest {
 
     @Test
     void testFindAllByUserId() {
-        Assertions.assertEquals(orderRepository.getOrderedList().get(4), orderRepository.findAllByUserId("shawlinspire").get(0));
+        Assertions.assertEquals(3,orderRepository.findAllByUserId("shawlinspire").size());
     }
 }

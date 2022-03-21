@@ -39,9 +39,7 @@ public class FileSourceOrderRepository implements CrudRepository<Order, Integer>
             for (User users : fileSourceUserRepository.getUsersList()) {
                 if (array[3].equals(users.getId())) {
                     order.setPurchasedUser(users);
-                    break;
                 }
-                break;
             }
             orderedList.add(order);
         }
@@ -77,15 +75,16 @@ public class FileSourceOrderRepository implements CrudRepository<Order, Integer>
 
     public List<Order> findAllByUserId(String userId) {
         List<Order> newList = new ArrayList<>();
-
         for (User users : fileSourceUserRepository.getUsersList()) {
             if (users.getId().equals(userId)) {
                 for (Order orders : orderedList) {
-                    if (orders.getPurchasedUser().equals(users)) {
+                    if (users.equals(orders.getPurchasedUser())) {
                         newList.add(orders);
                     }
                 }
+
             }
+
         }
         return newList;
     }
