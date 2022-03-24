@@ -1,4 +1,4 @@
-package com.aca.homework.week1.exam1;
+package com.aca.exam.exam1;
 
 import java.util.Scanner;
 
