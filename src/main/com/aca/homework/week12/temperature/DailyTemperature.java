@@ -21,35 +21,6 @@ public class DailyTemperature {
         this.degree = degree;
     }
 
-//    @Override
-//    public void read() throws IOException {
-//        ObjectInputStream objectInputStream = new ObjectInputStream(
-//                new FileInputStream(filename)
-//        );
-//        System.out.println(objectInputStream.readInt());
-//        System.out.println(objectInputStream.readDouble());
-//        objectInputStream.close();
-//    }
-//
-//
-//    @Override
-//    public void write() throws IOException {
-//        FileOutputStream fileOutputStream = new FileOutputStream(
-//                filename
-//        );
-//        ObjectOutputStream objectOutputStream = new ObjectOutputStream(
-//                fileOutputStream
-//        );
-//        BufferedWriter line = new BufferedWriter(new OutputStreamWriter(fileOutputStream));
-//
-//        objectOutputStream.writeInt(getDayNumber());
-//        objectOutputStream.writeDouble(getDegree());
-//        line.newLine();
-//
-//        objectOutputStream.close();
-//        fileOutputStream.close();
-//    }
-
 
     @Override
     public String toString() {

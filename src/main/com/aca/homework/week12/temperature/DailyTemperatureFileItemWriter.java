@@ -14,12 +14,10 @@ public class DailyTemperatureFileItemWriter implements ItemWrite<DailyTemperatur
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(
                 fileOutputStream
         );
-//        BufferedWriter line = new BufferedWriter(new OutputStreamWriter(fileOutputStream));
 
         objectOutputStream.writeChars(""+item.getDayNumber());
         objectOutputStream.writeChars(""+item.getDegree());
 
-//        line.newLine();
 
         objectOutputStream.close();
         fileOutputStream.close();
