@@ -22,6 +22,7 @@ public class UserUpdateParams {
         this.age = age;
     }
 
+
     public String getUsername() {
         return username;
     }

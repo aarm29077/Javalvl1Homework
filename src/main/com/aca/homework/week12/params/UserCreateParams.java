@@ -20,21 +20,21 @@ public class UserCreateParams {
     public String getUsername() {
 //        if (username == null) {
 //            throw new RuntimeException("The username is null!!");
-//        }     //meaningless
+//        }      //meaningless
         return username;
     }
 
     public String getFirstName() {
 //        if (firstName == null) {
 //            throw new RuntimeException("The firstName is null!!");
-//        }     //meaningless
+//        }      //meaningless
         return firstName;
     }
 
     public int getAge() {
 //        if (age <= 0 || age > 115) {
 //            throw new RuntimeException("The age is inadmissible");
-//        }     //meaningless
+//        }      //meaningless
         return age;
     }
 
