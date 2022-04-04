@@ -37,8 +37,12 @@ public class SynchCollection {
 
 //            executor2.execute(runnable);
 //            executor2.submit(runnable);
+           //1
             Future<?> future = executor2.submit(runnable);
+
             //callable y karox e veradarcnel ardyunq , ev karoxe gcel exception , i tarberutyun runnable i , da void er
+
+            //2
             executor2.submit(new Callable<Object>() {
                 @Override
                 public Object call() throws Exception {
@@ -47,6 +51,7 @@ public class SynchCollection {
             });
             futureList.add(future);
         }
+                    //cuyc e talis vor menq el tasker chenq talis, arden petq e verjacni
         executor2.shutdown();
 
        /* threadList.forEach(thread -> {
