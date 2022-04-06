@@ -61,8 +61,8 @@ public class SynchCollection {
                 e.printStackTrace();
             }
         });
-        */
-        System.out.println(sharedList.size());
+*/        System.out.println(sharedList.size());
 
 
-}}
+}
+}

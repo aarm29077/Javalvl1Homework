@@ -16,7 +16,6 @@ public class FutureMain {
             }
         });
         try {
-
             Integer integer = future.get();
             System.out.println(integer);
         } catch (InterruptedException e) {
