@@ -7,7 +7,8 @@ public class InterruptMain {
 //                Thread.sleep(10_000);
                 Thread.sleep(5_000);
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                Thread.currentThread().interrupt();//erb vor interrupt enq anum, ev exception enq anum, interrupti flagy jnjvum e,dra hamar vor urish methodnery karxonana stugen interrupty, flagy verakangnumenq
+//                e.printStackTrace();
             }
             doHeavyTasks();
             System.out.println("Finished");
@@ -28,7 +29,7 @@ public class InterruptMain {
     public static void doHeavyTasks() {
         for (int i = 0; i < 100; i++) {
 
-            if (Thread.interrupted()) {
+            if (Thread.currentThread().isInterrupted()) {
                 return;
             }//ete ify chgreinq interrupty cher ashxati.
 

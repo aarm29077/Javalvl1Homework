@@ -10,6 +10,7 @@ public class TextPrinterRunnable implements Runnable {
         this.name = name;
     }
 
+
     @Override
     public void run() {
         while (isRunning) {
