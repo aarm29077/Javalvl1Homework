@@ -1,4 +1,4 @@
-package com.aca.classwork.classwork24.stopRunnable;
+package com.aca.classwork.classwork23.stopRunnable;
 
 public class TextPrinterRunnable implements Runnable {
 

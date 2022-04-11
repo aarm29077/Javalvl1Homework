@@ -1,4 +1,4 @@
-package com.aca.classwork.classwork25.iterrupt;
+package com.aca.classwork.classwork24.iterrupt;
 
 public class InterruptMain {
     public static void main(String[] args) throws InterruptedException {

@@ -1,14 +1,10 @@
-package com.aca.classwork.classwork24.print;
+package com.aca.classwork.classwork23.stopRunnable;
 
 
-public class TextPrinterMain {
-    public static void main(String[] args) throws InterruptedException {
-        TextPrinterRunnable runnable = new TextPrinterRunnable(
-            new SystemPrinter(),
-            "Hello world!"
-        );
+public class TypePrinterMain {
+    public static void main(String[] args) {
+        TextPrinterRunnable runnable = new TextPrinterRunnable("Hello world!");
         final Thread thread0 = new Thread(runnable);
-        thread0.start();
 
         Thread thread1 = new Thread(new Runnable() {
             @Override
@@ -22,5 +18,6 @@ public class TextPrinterMain {
             }
         });
         thread1.start();
+        runnable.stop();
     }
 }

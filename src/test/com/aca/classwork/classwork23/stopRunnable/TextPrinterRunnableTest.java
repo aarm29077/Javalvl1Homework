@@ -1,4 +1,4 @@
-package com.aca.classwork.classwork24.stopRunnable;
+package com.aca.classwork.classwork23.stopRunnable;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

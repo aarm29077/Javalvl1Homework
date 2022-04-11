@@ -1,4 +1,4 @@
-package com.aca.classwork.classwork25;
+package com.aca.classwork.classwork24;
 
 public interface Buffer<T> {
 
